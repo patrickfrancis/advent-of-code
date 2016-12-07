@@ -10,17 +10,17 @@ def do_single_move(start: int, direction: str) -> int:
             return start
         else:
             return start - 3
-    if direction == "D":
+    elif direction == "D":
         if start >= 7:
             return start
         else:
             return start + 3
-    if direction == "L":
+    elif direction == "L":
         if start % 3 == 1:
             return start
         else:
             return start - 1
-    if direction == "R":
+    elif direction == "R":
         if start % 3 == 0:
             return start
         else:
