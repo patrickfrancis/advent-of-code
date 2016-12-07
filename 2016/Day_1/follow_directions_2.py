@@ -55,7 +55,7 @@ def read_moves(filename):
 
 if __name__ == "__main__":
     t = Turtle()
-    moves = read_moves("input.txt")
+    moves = read_moves("day1_input.txt")
     #moves = ["R5", "L5", "R5", "R3"]
     #moves = ["R8", "R4", "R4", "R8"]
     result = t.follow_directions(moves)

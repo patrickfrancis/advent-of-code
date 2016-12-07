@@ -35,7 +35,7 @@ def do_move(move: str):
 
 
 if __name__ == "__main__":
-    moves = read_moves("input.txt")
+    moves = read_moves("day1_input.txt")
     #moves = ["R5", "L5", "R5", "R3"]
     for move in moves:
         do_move(move)
